@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header{
+    width: 1920px;
+    height: 80px;
+    background: #AA0601;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header img{
+    width: 80px;
+    height: 49px;
+}
+
+.menu{
+    display: flex;
+}
+.menu li{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.menu li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.picture{
+    width: 1920px;
+    height: 787px;
+    background:transparent url("img/home-header.png") 0% 0% no-repeat padding-box;
+    background-size:contain ;
+    opacity: 1;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    flex-direction: row;
+   
+}
+.intro{
+    padding: 10px;
+}
+.intro h3{
+    font-size: 36px;
+    margin:2px;
+    color: #AA0601;
+}
+.intro h1{
+    font-size: 64px;
+    margin:3px;
+    color: #AA0601;
+    font-weight: bold;
+
+}
+.intro a{
+    background: #AA0601;
+    color: white;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 104px;
+    text-align: center
+
+}
+
+.content{
+    background: #FBF2F2;
+    width: 1920px;
+    height: 488px;
+}
+.intro2{
+    display: flex;
+    justify-content: space-around;
+}
